@@ -1,0 +1,24 @@
+[
+    {
+      "id": "1",
+      "titulo": "Leche",
+      "descripcion": "Comprar leche",
+      "completada": true,
+      "fecha_creacion": "2024-03-08T10:00:00"
+    },
+    {
+      "id": "2",
+      "titulo": "Gimnasio",
+      "descripcion": "Ir al gimnasio",
+      "completada": false,
+      "fecha_creacion": "2024-03-08T12:30:00"
+    },
+    {
+      "id": "3",
+      "titulo": "Facturas",
+      "descripcion": "Pagar facturas",
+      "completada": false,
+      "fecha_creacion": "2024-03-09T09:00:00"
+    }
+  ]
+  

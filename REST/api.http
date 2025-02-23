@@ -1,0 +1,29 @@
+### Obtener la lista con todas las tareas
+GET http://localhost:3000/tareas
+
+### Obtener una tarea en específico de la lista
+GET http://localhost:3000/tareas/3
+
+
+### Creacion de una tarea
+POST http://localhost:3000/tareas
+Content-Type: application/json
+
+{
+    "titulo": "Limpiar la casa",
+    "descripcion": "Limpiar la casa antes de las 6:00 pm.",
+    "completada": false
+}
+
+### Actualizar una tarea existente
+PUT http://localhost:3000/tareas/3
+Content-Type: application/json
+
+{
+    "titulo": "Tarea Diseño Digital",
+    "descripcion": "Completar tarea de diseño digital antes del 22 de febrero.",
+    "completada": true
+}
+
+### Eliminar una tarea por su id
+DELETE http://localhost:3000/tareas/3
